@@ -11,3 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </Provider>
   </React.StrictMode>,
 )
+
+//Filter functionality left(1st)
+//fav, profile ui left,responsiveness(2nd)
+//user Auth left(3rd)

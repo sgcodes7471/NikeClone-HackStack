@@ -1,0 +1,89 @@
+.slider-outer{
+    width: 50vw;
+    overflow: hidden;
+}
+.slider-inner p{
+    width: 50vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.slider-inner{
+    width: max-content;
+    transition: 0.5s;
+}
+.nav-btm{
+    justify-content: center;
+}
+.nav-top img{
+    width: 25px;
+}
+.nav-top , .nav-btm , .nav-btw{
+    padding: 5px 50px;
+}
+.nav-top{
+    background-color: rgb(243, 243, 243);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.nav-top-left{
+    width: 5vw;
+    justify-content: space-between;
+}
+.nav-top-right{
+    width: 90vw;
+    justify-content: right;
+    cursor: pointer;
+}
+.nav-top-right p:hover{
+    color: rgb(93, 93, 93);
+}
+.hr-hori{
+    margin: 0px 10px;
+}
+.nav-btw{
+    padding: 18px 50px;
+}
+@media screen and (max-width:600px) {
+    .slider-inner p, .slider-outer{
+        width: 90vw;
+    }
+}
+.nav-btm{
+    padding: 15px 50px;
+    background-color:rgb(243, 243, 243);
+}
+.logo-wrapper{
+    width: 20vw;
+}
+.nav-category-wrapper{
+    width: 85vw;
+}
+.nav-category-wrapper ul{
+    justify-content: center;
+}
+.nav-category-wrapper ul li{
+    margin: 0px 10px;
+    font-weight: 500;
+}
+.nav-category-wrapper ul li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.icons-wrapper{
+    width: auto;
+    justify-content: right;
+}
+.icon{
+    padding: 3px;
+    margin: 0px 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover{
+    background-color: rgb(230, 230, 230);
+}

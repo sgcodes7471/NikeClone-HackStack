@@ -1,0 +1,15 @@
+.right-section div{
+    margin: 10px 0px;
+}
+.bag-btn-wrapper button{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 20px 0px;
+} 
+.bag-box{
+    display: flex;
+    
+}

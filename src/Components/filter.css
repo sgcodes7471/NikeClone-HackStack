@@ -1,0 +1,16 @@
+.filters-box{
+    width:100%
+  }
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 1000px;
+    border: none;
+}
+.filter-box{
+  padding: 20px;
+}
+.options-box{
+  padding: 3px 0px;
+  font-size: 1.1rem;
+}

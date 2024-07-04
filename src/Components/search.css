@@ -1,0 +1,22 @@
+.search-box{
+    display:flex;
+    position:fixed;
+    z-index:10;
+    background-color:white;
+    width:100vw;
+    height:400px;
+    top:0px;
+    padding: 20px 50px;
+}
+.search-txt{
+    width: 60vw;
+    flex-shrink: 1;
+}
+.cancel-btn{
+    font-weight: 500;
+    cursor: pointer;
+}
+.popular{
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}

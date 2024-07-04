@@ -1,0 +1,46 @@
+.btn-ham button{
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.outer-ham{
+    transition: 0.3s;
+    width:100vw;
+    z-index:9;
+    overflow-y: scroll;
+    height:100%;
+    display: flex;
+    justify-content: right;
+    position:fixed;
+    background-color:rgb(0,0,0,0.4);
+}
+.cross-wrapper{
+    padding: 20px 0px;
+}
+.box-ham{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.logos img{
+    width: 40px;
+}
+.logos{
+    padding: 30px 0px;
+}
+.cross-wrapper{
+    display: flex;
+    justify-content: right;
+}
+.joinbtn{
+    background-color: black;
+    color: white;
+}
+.signbtn{
+    background-color: transparent;
+    margin: 0px 10px;
+}

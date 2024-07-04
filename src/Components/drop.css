@@ -1,0 +1,16 @@
+.drop-arrow{
+    height: 1.5px;
+    background-color: black;
+    width: 10px;
+    transition: 0.5s;
+    position: absolute;
+}
+
+#arrow-1{
+    transform: rotateZ(45deg);
+    right: 1px;
+}
+
+#arrow-2{
+    transform: rotateZ(-45deg);
+}

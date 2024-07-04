@@ -1,0 +1,11 @@
+.fav-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fav-card{
+    width: 20vw;
+}
+.heading-fav{
+    font-size: 1.5rem;
+    text-align: center;
+}
