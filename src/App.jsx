@@ -7,6 +7,7 @@ import Fav from "./Pages/FavPage/favPage.jsx"
 import Signup from "./Pages/SignupPage/signup.jsx"
 import Product from "./Pages/Product/Product.jsx"
 import Joinus from "./Pages/JoinusPage/joinusPage.jsx"
+import Profile from "./Pages/ProfilePage/ProfilePage.jsx"
 
 const Routing = ()=>{
   const [width , setWidth]=useState(window.innerWidth)
@@ -34,6 +35,7 @@ const Routing = ()=>{
           <Route exact path="/:productName" element={<Product/>}/>
           <Route exact path='/Signin' element={<Signup/>}/>
           <Route exact path='/Joinus' element={<Joinus/>}/>
+          <Route exact path="/Profile" element={<Profile/>} />
         </Routes>
     </>
   )

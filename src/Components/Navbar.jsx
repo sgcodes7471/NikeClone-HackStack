@@ -66,7 +66,7 @@ const Navbar=({width})=>{
         <img src={search} alt='search' style={{position:'absolute', margin:'5px'}}/>
         <input type='text' placeholder='search here'/>
         </p>
-        <p className='icon'><img src={profile} alt='profile'/></p>
+        <p className='icon'><img src={profile} alt='profile' onClick={()=>{navigate('/Profile',{replace:true})}}/></p>
         <p className='icon'><img src={love} alt='love' onClick={()=>{navigate('/Fav',{replace:true})}}/></p>
         <p className='icon'><img src={cart} alt='cart' onClick={()=>{navigate('/Cart' ,{replace:true})}}/></p>
         {width<960 && <p onClick={()=>{setShowHam(true)}}><img src={hamburger} alt='hamburger'/></p>}
